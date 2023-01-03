@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <base href="/">
+    <meta charset="UTF-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta name="description" content="Quiz App of GDSC AKGEC">
+
+    <!-- iOS meta tags & icons -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="GDSC AKGEC">
+    <meta name="google-signin-client_id" content="395079202559-2ba9tde1g6nnd02tbrl5jgjmqrcf224u.apps.googleusercontent.com">
+    <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+    <title>GDSC AKGEC</title>
+    <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-firestore.js">
+    </script>
+
+    <script>
+        const firebaseConfig = {
+            apiKey: "AIzaSyA-S7BAfjyG6lIkGYSMlkgJfjLwNYUs8jw",
+            authDomain: "dsc-quiz-app.firebaseapp.com",
+            projectId: "dsc-quiz-app",
+            storageBucket: "dsc-quiz-app.appspot.com",
+            messagingSenderId: "395079202559",
+            appId: "1:395079202559:web:8d9fc348db8e6b26a77eca"
+        };
+        firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('flutter-first-frame', function() {
+                navigator.serviceWorker.register('flutter_service_worker.js?1.0');
+            });
+        }
+    </script>
+    <script src="main.dart.js?version=1.0" type="application/javascript"></script>
+</body>
+
+</html>

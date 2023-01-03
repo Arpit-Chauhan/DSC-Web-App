@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "395079202559",
+    "project_id": "dsc-quiz-app",
+    "storage_bucket": "dsc-quiz-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395079202559:android:489b669856146adfa77eca",
+        "android_client_info": {
+          "package_name": "com.dsc.quizapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "395079202559-26lu7rakbunheu0ptlujqmm331qkobc3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dsc.quizapp",
+            "certificate_hash": "5a9823fa0afae186e84bff96d8b741d6e1d9a58a"
+          }
+        },
+        {
+          "client_id": "395079202559-2ba9tde1g6nnd02tbrl5jgjmqrcf224u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXI2RzxkZvRBKCOM--u_j2oEbGtGmy4mE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "395079202559-2ba9tde1g6nnd02tbrl5jgjmqrcf224u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
